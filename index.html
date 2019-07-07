@@ -3,30 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About | Robert Zuniga</title>
+    <link rel="stylesheet" type="test/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
 <style>
-    /* Add a gray background color and some padding to the footer */
+/* Add a gray background color and some padding to the footer */
     footer {
       color: white;
       background-color: #666666;
       padding: 25px;
     }
     html { 
-  background: url(assets/images/concrete_seamless.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-    </style>
+        background: url(assets/images/concrete_seamless.png) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover; 
+         /* border-style:solid;
+            border-color: crimson;*/
+    }
+</style>
 <body>
+
     <div class="container"> <!-- big container -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-info ">            
+     
+<!--start nav- -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info ">             
+        
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">Robert Zuniga</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" 
@@ -57,13 +65,21 @@
                         </div> 
                     </div> 
                 </div> 
+        
+        
             </div>
-        </nav> <!-- end nav row-->
+        </nav> 
+        
+    <!--     end nav row-->
+
+
+
+
 
 
         <div class="container"> <!-- main body-->
-            <div class="row">
-                <div class="col-sm-9">
+            <div class="row">  <!-- row 1 -->
+                <div class="col-sm-9">  
                     <div class="page-header">
                         <h1>About Me</h1>
                     </div> <!--class page-header-->
@@ -76,6 +92,7 @@
                     <img src="assets/images/Robert-Zuniga.jpg" class="thumbnail float-left mr-2" 
                         alt="Robert" width="200px" height="auto">
                     <div class="caption"> <!-- Text in Body -->
+                    
                             <p>If you're seeking a Full Stack Developer, keep reading....</p>   
                             <p>I am currently enrolled in the Coding Boot Camp at UNC Charlotte.
                             </p>
@@ -101,6 +118,7 @@
             </div> <!--end row 2-->
 
          </div> <!--end main body-->
+
     </div> <!-- end big container -->
     <!--footer-->
     <footer class="container-fluid text-center">
