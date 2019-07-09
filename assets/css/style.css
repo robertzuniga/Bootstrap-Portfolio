@@ -15,3 +15,14 @@
       background-color: #666666;
       padding: 25px;
     }  
+    .addBanner {
+background-color: #17a2b8;
+width: 100%;
+text-align: center;
+padding: 5px;
+color:white;
+
+    }
+    .card-img-overlay {
+      padding: 0;
+  }
